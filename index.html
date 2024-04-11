@@ -1,0 +1,654 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Jurgen y Mariam</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Didact+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/YouTubePopUp.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+        <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="lds-heart">
+            <div></div>
+        </div>
+    </div>
+    <!-- Progress-wrapp scroll-button -->
+    <div class="progress-wrap active-progress">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+            <!-- Logo -->
+            <div class="logo-wrapper navbar-brand valign">
+                <div class="logo">
+                    <a href="index.html"><img src="images2/LOGO nuestra boda.png" style="width: 64%;" alt=""></a>
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span
+                    class="icon-bar"><i class="ti-line-double"></i></span> </button>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#home" data-scroll-nav="0">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery" data-scroll-nav="3">Galería</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#whenwhere" data-scroll-nav="6">¿Cuándo y Dónde?</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#outfit" data-scroll-nav="8">Vestimenta</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#rsvp5" data-scroll-nav="7">Regalos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#rsvp2" data-scroll-nav="9">Notas</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Slider section -->
+    <header id="home" data-scroll-index="0">
+        <div class="mary-hero js-fullheight">
+            <div class="flexslider js-fullheight">
+                <ul class="slides">
+                    <li class="bg-fixed" style="background-image: url(images/MAX_0126.jpeg);" data-overlay-dark="2"
+                        id="icon">
+                        <div class="overlay"></div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12 text-center js-fullheight slider-text">
+                                    <div class="slider-text-inner mx-auto">
+                                        <h2>Jurgen y Mariam</h2>
+                                        <h6>15 de Junio de 2024 — Centro de Eventos Ensueño - Heredia</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </header>
+    <!-- Welcome section -->
+    <div id="welcome" class="welcome section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="welcome-mt">
+                        <div class="welcome-image-wrapper">
+                            <div class="img">
+                                <a href="#" data-scroll-nav="1"><img src="images/810_1529.jpeg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 offset-md-2 text-center">
+                    <h6 class="section-subtitle">Hola & Bienvenido</h6>
+                    <h2 class="section-title">¡Nos vamos a casar!</h2>
+                    <p>Estamos muy emocionados por compartir con ustedes nuestra boda!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Countdown section -->
+    <div id="countdown" class="section-padding bg-img bg-fixed" data-overlay-dark="1"
+        data-background="images/810_1691.jpeg">
+        <div class="container">
+            <div class="row">
+                <div class="section-head col-md-12">
+                    <h6>Nos convertiremos en una familia</h6>
+                    <h2>Nos casaremos en</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <ul>
+                        <li><span id="days"></span>Días</li>
+                        <li><span id="hours"></span>Horas</li>
+                        <li><span id="minutes"></span>Minutos</li>
+                        <li><span id="seconds"></span>Segundos</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- Video section -->
+    <div id="video" class="story-video section-padding bg-img bg-fixed" data-overlay-dark="2"
+        data-background="images/810_1599.jpeg">
+        <div class="container">
+            <div class="video-wrapper">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="caption">
+                            <h6 class="subtitle">UNA FAMILIA QUE COMIENZA</h6>
+                            <h2 class="title">Mira nuestra historia de amor</h2><br>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 mb-60 img text-center">
+                        <a class="vid valign" href="https://www.youtube.com/watch?v=nc8S_TPYeWc">
+                            <div class="vid-butn">
+                                <span class="icon"><i class="ti-control-play"></i></span>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Gallery section -->
+    <div id="gallery" class="section-padding bg-cream" data-scroll-index="3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h6 class="section-subtitle">Galería</h6>
+                    <h2 class="section-title">Sesión de compromiso</h2>
+                    <a href="https://japphotocr.pixieset.com/sesindejurgenandmariam/" target="_blank">
+                        <h3>Haz click aquí para ver nuestra sesión de compromiso!</h3>
+                    </a>
+                </div>
+            </div>
+            <img src="images/810_1514.jpeg" alt="">
+        </div>
+    </div>
+    <!-- Banner section -->
+    <div id="banner" class="section-padding bg-img bg-fixed" data-overlay-dark="1"
+        data-background="images/810_1678.jpeg">
+        <div class="container">
+            <div class="row">
+                <div class="section-head col-md-12">
+                    <h6>Agenda la fecha</h6>
+                    <h2>¡Espero verte!</h2>
+                    <h1>15.06.2024</h1>
+                    <h1><i class="ti-heart"></i></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- When & Where section -->
+    <div id="whenwhere" class="when-where section-padding" data-scroll-index="6"
+        style="background: url(images/FLORES-02.png) ; background-size:21%; background-repeat: no-repeat; background-position: top right;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center animate-box" data-animate-effect="fadeInUp">
+                    <h6 class="section-subtitle">Agenda la fecha</h6>
+                    <h2 class="section-title">Cuándo y Dónde?</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                    <div class="img left">
+                        <img src="images/810_1557.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 valign animate-box" data-animate-effect="fadeInRight">
+                    <div class="content">
+                        <div class="date">
+                            <h3>15</h3>
+                            <h6>Junio 2024</h6>
+                        </div>
+                        <div class="cont">
+                            <div class="info">
+                                <h6>¿Estás preparado?</h6>
+                            </div>
+                            <h4>Ceremonia de boda</h4>
+                            <ul class="list-unstyled cont-list">
+                                <li>
+                                    <div class="icon"> <span class="ti-location-pin"></span> </div>
+                                    <div class="text">
+                                        <p>Jardines Centro de Eventos Ensueño.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon"> <span class="ti-time"></span> </div>
+                                    <div class="text">
+                                        <p>3:50 pm</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <i class="fa-brands fa-waze" style="color: #b08c3e;"></i>
+                                    </div>
+                                    <div class="text">
+                                        
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="whenwhere" class="when-where section-padding" data-scroll-index="6"
+        style="background: url(images/FLORES-03.png) ; background-size:18%; background-repeat: no-repeat; background-position: top left;">
+        <br>
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-6 order2 valign animate-box" data-animate-effect="fadeInLeft">
+                    <div class="content">
+                        <div class="date">
+                            <h3>15</h3>
+                            <h6>Junio 2024</h6>
+                        </div>
+                        <div class="cont">
+                            <div class="info">
+                                <h6>¿Estás preparado?</h6>
+                            </div>
+                            <h4>Recepción</h4>
+                            <ul class="list-unstyled cont-list">
+                                <li>
+                                    <div class="icon"> <span class="ti-location-pin"></span> </div>
+                                    <div class="text">
+                                        <p>Salón Centro de Eventos Ensueño
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon"> <span class="ti-time"></span> </div>
+                                    <div class="text">
+                                        <p>4:30 pm</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <i class="fa-brands fa-waze" style="color: #b08c3e;"></i>
+                                    </div>
+                                    <div class="text">
+                                        
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 order1 animate-box" data-animate-effect="fadeInRight">
+                    <div class="img">
+                        <img src="images/810_1574.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="marybrian-blog section-padding">
+        <div class="container">
+            <div class="row mb-30">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3928.6993494488443!2d-84.07440868563056!3d10.041649393869706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTDCsDAyJzMwLjYiTiA4NMKwMDQnMjIuMyJX!5e0!3m2!1ses-419!2scr!4v1712789112668!5m2!1ses-419!2scr"
+                    width="1200" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Events section -->
+    <div id="events" class="events section-padding" data-scroll-index="4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center animate-box" data-animate-effect="fadeInUp">
+                    <h6 class="section-subtitle">Itinerario</h6>
+                    <h2 class="section-title">Nuestra Boda</h2>
+                </div>
+            </div>
+            <div class="marybrian-blog section-padding">
+                <div class="container">
+                    <div class="row mb-30">
+                        <div class="col-md-6">
+                            <div class="img left">
+                                <a><img src="images/cross.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 valign">
+                            <div class="content">
+                                <div class="date">
+                                    <h1>17</h1>
+                                    <h6>HORAS</h6>
+                                </div>
+                                <div class="cont">
+                                    <div class="info">
+                                        <h6>26 de Marzo/ <a class="tags">2023</a></h6>
+                                    </div>
+                                    <h5></h5> <a class="more" data-splitting=""><span>Ceremonia</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-30">
+                        <div class="col-md-6 order2 valign animate-box" data-animate-effect="fadeInLeft">
+                            <div class="content">
+                                <div class="date">
+                                    <h1>18</h1>
+                                    <h6>HORAS</h6>
+                                </div>
+                                <div class="cont">
+                                    <div class="info">
+                                        <h6>26 de Marzo/ <a class="tags">2023</a></h6>
+                                    </div>
+                                    <h5></h5> <a class="more" data-splitting=""><span>RECEPCIÓN</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 order1 animate-box" data-animate-effect="fadeInRight">
+                            <div class="img left">
+                                <a><img src="images/glasses.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-30">
+                        <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                            <div class="img left">
+                                <a><img src="images/rings.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 valign animate-box" data-animate-effect="fadeInRight">
+                            <div class="content">
+                                <div class="date">
+                                    <h1>19</h1>
+                                    <h6>HORAS</h6>
+                                </div>
+                                <div class="cont">
+                                    <div class="info">
+                                        <h6>26 de Marzo/ <a class="tags">2023</a></h6>
+                                    </div>
+                                    <h5></h5> <a class="more" data-splitting=""><span>VALS Y FIESTA</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-30">
+                        <div class="col-md-6 order2 valign animate-box" data-animate-effect="fadeInLeft">
+                            <div class="content">
+                                <div class="date">
+                                    <h1>20</h1>
+                                    <h6>HORAS</h6>
+                                </div>
+                                <div class="cont">
+                                    <div class="info">
+                                        <h6>26 de Marzo/ <a class="tags">2023</a></h6>
+                                    </div>
+                                    <h5></h5> <a class="more" data-splitting=""><span>HORA EN QUE FINALIZA</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 order1 animate-box" data-animate-effect="fadeInRight">
+                            <div class="img left">
+                                <a><img src="images/party.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- new-->
+            <div class="col-md-4 gallery-item ceremony">
+                <a class="img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img class="img-fluid mx-auto d-block" alt=""> </div>
+                        <div class="gallery-detail">
+                            <h4 class="mb-0">Wedding Ceremony</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 gallery-item party">
+                <a class="img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img class="img-fluid mx-auto d-block" alt=""> </div>
+                        <div class="gallery-detail">
+                            <h4 class="mb-0">Wedding Party</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 gallery-item ceremony">
+                <a class="img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img class="img-fluid mx-auto d-block" alt=""> </div>
+                        <div class="gallery-detail">
+                            <h4 class="mb-0">Wedding Ceremony</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <!-- Dress Code section -->
+    <div id="outfit" class="bride-groom clear section-padding bg-cream" data-scroll-index="8">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mb-30 animate-box" data-animate-effect="fadeInUp">
+                    <h6 class="section-subtitle">Código de Vestimenta</h6>
+                    <h2 class="section-title">Formal</h2>
+                </div>
+                <img src="images/Imagen1.png" alt="">
+
+                <div class="col-md-12 text-center mb-30 animate-box">
+                    <div class="widget-container" style="text-align: center;">
+                        <br>
+                        <p style="font-size: larger;">Siéntase comod@ y guap@, pero no haga gastos innecesarios
+                        </p>
+                        <br>
+                        <p style="font-size: larger;"><b>Nota: </b> Para las chicas, les recomendamos llevar calzado
+                            cómodo, porque el lugar tiene caminos rústicos
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RSVP Form section -->
+    <div id="rsvp" class="rsvp section-padding bg-img bg-fixed" data-background="images/810_1514.jpeg"
+        data-scroll-index="7">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3 bg-white p-60">
+                    <h2 class="text-center">Hemos reservado 1 <br>espacio para ti</br></h2>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+
+    <!-- RSVP Form section -->
+    <div id="rsvp5" class="rsvp section-padding bg-img bg-fixed" data-background="images/810_1582.jpeg"
+        data-scroll-index="7">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3 bg-white p-60">
+                    <h2 class="text-center">Regalos</br></h2>
+                    <h6 class="text-center" style="font-family: Didact Gothic; font-size: large;">Nuestro mayor regalo
+                        es su presencia, pero si gusta hacernos un obsequio que sea en efectivo muchas gracias.
+
+                        <br>
+                        <br>
+                        <b>Cuenta colones:</b>
+                        <br>
+                        <br>
+                        IBAN CR54015108420010553721
+                        <br>
+                        <br>
+                        200-01-084-055372-8
+
+                        <br>
+                        <br>
+                        <b>Cuenta Dolares:</b> <br>
+                        <br>
+                        IBAN CR84015108420020129409
+                        <br>
+                        <br>
+
+                        200-02-084-012940-9
+
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <div id="rsvp2" class="rsvp section-padding bg-img bg-fixed" data-background="images/810_1695.jpeg"
+        data-scroll-index="9">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3 bg-white p-60">
+                    <h2 class="text-center">¡Importante!</br></h2>
+                    <br>
+                    <h6 class="text-center" style="font-family: Didact Gothic; font-size: large;">
+                        1. Este evento es solamente para adultos
+                        <br>
+                        <br>
+                        2. Confirmar asistencia antes del 01 de Mayo
+                        <br>
+                        <br>
+                        3. Se reserva el color blanco unicamente para la novia.
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div id="gallery" class="section-padding bg-cream" data-scroll-index="10">
+        <div class="container">
+            <div class="row">
+            </div>
+        </div>
+        <div class="row gallery-filter">
+            <div class="col-md-2 gallery-item ceremony">
+                <div class="gallery-box">
+                    <div class="gallery-img"> <img src="images/710_2110.jpeg" class="img-fluid mx-auto d-block" alt="">
+                    </div>
+                    <div class="gallery-detail">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 gallery-item ceremony">
+                <div class="gallery-box">
+                    <div class="gallery-img"> <img src="images/710_2158.jpeg" class="img-fluid mx-auto d-block" alt="">
+                    </div>
+                    <div class="gallery-detail">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 gallery-item ceremony">
+                <div class="gallery-box">
+                    <div class="gallery-img"> <img src="images/710_2200.jpeg" class="img-fluid mx-auto d-block" alt="">
+                    </div>
+                    <div class="gallery-detail">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 gallery-item ceremony">
+                <div class="gallery-box">
+                    <div class="gallery-img"> <img src="images/710_2323.jpeg" class="img-fluid mx-auto d-block" alt="">
+                    </div>
+                    <div class="gallery-detail">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 gallery-item ceremony">
+                <div class="gallery-box">
+                    <div class="gallery-img"> <img src="images/710_2739.jpeg" class="img-fluid mx-auto d-block" alt="">
+                    </div>
+                    <div class="gallery-detail">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 gallery-item ceremony">
+                <div class="gallery-box">
+                    <div class="gallery-img"> <img src="images/710_2734.jpeg" class="img-fluid mx-auto d-block" alt="">
+                    </div>
+                    <div class="gallery-detail">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <img src="images2/LOGO DE BODA 1.png" alt="" style="width: 30%; height: auto; left: 35%; position: relative;">
+    </div>
+    <br>
+    <br>
+    <!-- Footer section -->
+    <footer id="footer">
+        <div class="container">
+            <div class="top-footer">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="section-padding">
+                            <h2><span>Jurgen <small>&amp;</small> Mariam</span></h2>
+                            <h6>15 Junio 2024, Heredia</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sub-footer">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p>Nos gustaría que nos acompañes en este día tan especial</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/sticky-kit.min.js"></script>
+    <script src="js/scrollIt.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/YouTubePopUp.js"></script>
+    <script src="js/template.js"></script>
+
+</body>
+
+</html>
